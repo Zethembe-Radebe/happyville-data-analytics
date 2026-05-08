@@ -1,12 +1,12 @@
-Happyville Indoor Amusement Park — Data Analytics Project
+# Happyville Indoor Amusement Park — Data Analytics Project
 
-Project Overview:
+## Project Overview
 Happyville is an indoor amusement park based in Harrismith, Free State, South Africa. 
 This project analyzes booking data, in-park revenue, customer behavior, and operational 
 performance to support business decision-making as the company transitions from 
 walk-in only bookings to an online booking system.
 
-Business Questions Answered:
+## Business Questions Answered
 - What is our total revenue across bookings and in-park purchases?
 - Which ticket types generate the most revenue?
 - How is monthly revenue trending across 2024?
@@ -16,12 +16,12 @@ Business Questions Answered:
 - Which attractions are most popular and how long do customers spend there?
 - What are our busiest days and peak seasons?
 
-Tools Used:
+## Tools Used
 - MySQL — data storage and SQL analysis
 - Power BI — interactive dashboard and visualizations
 - Microsoft Excel — data validation
 
-Dataset:
+## Dataset
 The dataset contains 5 relational tables covering 2024:
 
 | Table | Records | Description |
@@ -32,7 +32,7 @@ The dataset contains 5 relational tables covering 2024:
 | attractions | 10 | Attraction details and capacity |
 | attendance | 7,613 | Customer visits per attraction |
 
-Key Insights:
+## Key Insights
 - Total booking revenue of R1.04M generated across 2,965 bookings in 2024
 - Adult tickets are the highest revenue ticket type
 - December and July are peak months driven by school holidays
@@ -41,26 +41,28 @@ Key Insights:
 - Dragon Roller Coaster and Splash Zone drive the majority of attraction visits
 - 42% of customers come from Harrismith with Phuthaditjhaba as second largest market
 
-Dashboard Preview
-Executive Summary:
+## Dashboard Preview
+### Executive Summary
 ![Executive Summary](Dashboard/Executive%20Summary.png)
 
-Revenue Deep Dive:
+### Revenue Deep Dive
 ![Revenue Deep Dive](Dashboard/Revenue%20Deep%20Dive.png)
 
-Customer Insights:
+### Customer Insights
 ![Customer Insights](Dashboard/Customer%20Insight.png)
 
-Operations:
-happyville-data-analytics/
-├── dashboard/     - Power BI file and screenshots
-├── data/          - Raw CSV datasets
-├── sql/           - SQL analysis queries
-└── README.md
+### Operations
+![Operations](Dashboard/Operations.png)
 
-Author:
-Zethembe Radebe  
-Junior Data Analyst | Microsoft Certified Power BI Data Analyst 
+## Repository Structure
+happyville-data-analytics/
+├── data/          # Raw CSV datasets
+├── sql/           # SQL analysis queries
+├── dashboard/     # Power BI file and screenshots
+└── README.md
+## Author
+**Zethembe Radebe**  
+Junior Data Analyst | Microsoft Certified Power BI Data Analyst  
 📧 z.radebe884@gmail.com
 
 
@@ -71,13 +73,3 @@ Junior Data Analyst | Microsoft Certified Power BI Data Analyst
 
 
 
-
-
-
-
-
-
-
-![Operations](Dashboard/Operations.png)
-
-## Repository Structure
